@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zoltanfff.restateapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,9 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "windows": {
+      "name": "restate-app"
     }
   }
 }
